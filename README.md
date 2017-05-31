@@ -1,1 +1,1 @@
-"# MSI-Auto-Uninstaller" 
+# MSI-Auto-Uninstaller
