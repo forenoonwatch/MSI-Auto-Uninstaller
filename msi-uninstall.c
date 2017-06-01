@@ -8,12 +8,10 @@
 #define ROOT_WOW_NODE		"SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall"
 #define ROOT_SOFTWARE		"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall"
 
-typedef int bool;
-
-enum {
+typedef enum {
 	false = 0,
 	true
-};
+} bool;
 
 /**
  * Finds the GUID for a MSI install among the given root key's subkeys
